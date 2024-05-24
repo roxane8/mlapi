@@ -17,3 +17,6 @@ EXPOSE 80
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
+
+# Install joblib
+RUN pip install joblib
